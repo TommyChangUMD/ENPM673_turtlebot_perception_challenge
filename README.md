@@ -6,13 +6,13 @@
 ``` shell
 source /opt/ros/humble/setup.bash 
 colcon build --symlink-install --packages-select enpm673_final_proj
-source install/setup.bash
 ```
 
 ## How to run the program?
 ### Python version:
 
 ``` shell
+source install/setup.bash
 ros2 run enpm673_final_proj enpm673_final_proj_main.py 
 ```
 The source code files are located at:
@@ -22,6 +22,7 @@ The source code files are located at:
 ### C++ version:
 
 ``` shell
+source install/setup.bash
 ros2 run enpm673_final_proj cpp_enpm673_final_proj 
 ```
 The source code files are located at: 
