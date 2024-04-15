@@ -34,10 +34,21 @@ ros2 launch enpm673_final_proj enpm673_world.launch.py "verbose:=true"
 The Gazebo world file is located at:
   - `enpm673_final_proj/worlds/enpm673.world`
 
+[<img src=screenshots/gazebo.png
+    width="80%" 
+    style="display: block; margin: 0 auto"
+    />](screenshots/gazebo.png)
+
+
 ## How to bring up the camera image?
 ``` shell
 ros2 run rqt_image_view rqt_image_view /camera/image_raw
 ```
+
+[<img src=screenshots/rqt_image_view.png
+    width="40%" 
+    style="display: block; margin: 0 auto"
+    />](screenshots/rqt_image_view.png)
 
 
 ## How to manually drive the Turtlebot?
@@ -53,3 +64,19 @@ Moving around:
    m    ,    .
 ```
 
+<!-- <video src="https://github.com/TommyChangUMD/ENPM673_turtlebot_perception_challenge/blob/main/screenshots/test_drive.webm"></video>  -->
+
+<video width="90%" controls>
+  <source src="screenshots/test_drive.webm">
+</video>
+
+# Troubleshoot
+## Gazebo: Objects have no shadow
+
+The Gazebo software that ships with Ubuntu 22.04 is version 11.10,
+which is two years old. Unfortunately, this version has a few issues
+with non-NVIDIA graphics cards. As a result, objects do not cast
+shadows. Newer versions of Gazebo (version 11.14 or above) work much
+better.
+
+Upgrade instructions to Gazebo version 11.14 will be provided later.
