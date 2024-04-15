@@ -36,6 +36,7 @@ The source code files are located at:
 ## How start the Gazebo simulation?
 ``` shell
 source install/setup.bash
+source  /usr/share/gazebo/setup.bash      ## this step may not be needed
 ros2 launch enpm673_final_proj enpm673_world.launch.py "verbose:=true"
 ```
 The Gazebo world file is located at:
@@ -46,6 +47,8 @@ The Gazebo world file is located at:
     style="display: block; margin: 0 auto"
     />](screenshots/gazebo.png)
 
+## How stop the Gazebo simulation?
+Instead of closing the Gazebo window, just hit control-c from the console to send an "interrupt signal" (SIGINT) to the entire chain of processes.
 
 ## How to bring up the camera image?
 One way is to use `rqt`'s image viewer to display the `/camera/image_raw` topic:
@@ -87,3 +90,18 @@ shadows. Newer versions of Gazebo (version 11.14 or above) work much
 better.
 
 Upgrade instructions to Gazebo version 11.14 will be provided later.
+
+## Start from scratch using a ROS2 Humble Docker container
+
+If your Linux system (or Windows WSL2) is not running Ubunu 22.04, you can still try things out using a pre-built Docker container.
+Follow the steps below to have a ROS2 Humble + Gazebo running in just a few mintues.
+```shell
+ sudo apt-get update
+ sudo apt install rocker
+ rocker --x11 --user -- osrf/ros:humble-desktop 'bash -c "sudo apt update; sudo apt install -y terminator; terminator"'
+```
+This will open a new ROS2 Humble terminal.  Now, we just need to install gazebo and turtlebot3.  Run from the ROS2 Humble terminal
+```shell
+sudo apt -y install ros-humble-gazebo* ros-humble-turtlebot3*
+```
+That's it.  We now have a working ROS2 Humble + Gazebo system. 
