@@ -8,7 +8,7 @@
 git clone https://github.com/TommyChangUMD/ENPM673_turtlebot_perception_challenge.git
 cd ENPM673_turtlebot_perception_challenge/
 
-# compile and install the package
+# build and install the package
 source /opt/ros/humble/setup.bash 
 colcon build --symlink-install --packages-select enpm673_final_proj
 ```
