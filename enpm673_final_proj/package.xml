@@ -20,6 +20,5 @@
     <build_type>ament_cmake</build_type>
     <gazebo_ros plugin_path="${prefix}/../../lib/enpm673_final_proj"/>
     <gazebo_ros gazebo_model_path="${prefix}/models"/>
-    <gazebo_ros gazebo_media_path="${prefix}/worlds:${prefix}/media"/>
   </export>
 </package>
