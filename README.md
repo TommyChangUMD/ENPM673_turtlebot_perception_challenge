@@ -41,7 +41,10 @@ The Gazebo world file is located at:
 
 
 ## How to bring up the camera image?
+One way is to use `rqt`'s image viewer to display the `/camera/image_raw` topic:
+
 ``` shell
+source /opt/ros/humble/setup.bash 
 ros2 run rqt_image_view rqt_image_view /camera/image_raw
 ```
 
@@ -52,6 +55,7 @@ ros2 run rqt_image_view rqt_image_view /camera/image_raw
 
 
 ## How to manually drive the Turtlebot?
+We can ust the `teleop_twist_keyboard` program to write angular and linear speeds to the `/cmd_vel` topic.
 ``` shell
 ros2 run teleop_twist_keyboard teleop_twist_keyboard 
 ```
