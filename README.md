@@ -30,6 +30,7 @@ The source code files are located at:
 
 ## How start the Gazebo simulation?
 ``` shell
+source install/setup.bash
 ros2 launch enpm673_final_proj enpm673_world.launch.py "verbose:=true"
 ```
 The Gazebo world file is located at:
