@@ -40,7 +40,7 @@ source  /usr/share/gazebo/setup.bash      ## this step may not be needed
 ros2 launch enpm673_final_proj enpm673_world.launch.py "verbose:=true"
 ```
 The Gazebo world file is located at:
-  - `enpm673_final_proj/worlds/enpm673.world`
+  - [enpm673_final_proj/worlds/enpm673.world](enpm673_final_proj/worlds/enpm673.world)
 
 [<img src=screenshots/gazebo.png
     width="80%" 
