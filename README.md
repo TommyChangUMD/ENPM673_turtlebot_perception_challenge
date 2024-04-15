@@ -100,7 +100,8 @@ Follow the steps below to have a ROS2 Humble + Gazebo running in just a few mint
  sudo apt install rocker
  rocker --x11 --user -- osrf/ros:humble-desktop 'bash -c "sudo apt update; sudo apt install -y terminator; terminator"'
 ```
-This will open a new ROS2 Humble terminal.  Now, we just need to install gazebo and turtlebot3.  Run from the ROS2 Humble terminal
+This will open a new ROS2 Humble terminal.  Now, we just need to install `gazebo` and `turtlebot3` packages.  
+Run on this new ROS2 Humble terminal:
 ```shell
 sudo apt -y install ros-humble-gazebo* ros-humble-turtlebot3*
 ```
