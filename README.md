@@ -65,12 +65,6 @@ Moving around:
 ```
 [test_drive.webm](https://github.com/TommyChangUMD/ENPM673_turtlebot_perception_challenge/assets/114546517/a4fba8b3-2f71-4628-9336-015fc453e512)
 
-<!-- <video src="https://github.com/TommyChangUMD/ENPM673_turtlebot_perception_challenge/blob/main/screenshots/test_drive.webm"></video>  -->
-
-<video width="90%" controls>
-  <source src="screenshots/test_drive.webm">
-</video>
-
 # Troubleshoot
 ## Gazebo: Objects have no shadow
 
