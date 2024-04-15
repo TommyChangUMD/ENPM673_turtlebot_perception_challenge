@@ -21,8 +21,8 @@ source install/setup.bash
 ros2 run enpm673_final_proj enpm673_final_proj_main.py 
 ```
 The source code files are located at:
-  - *`enpm673_final_proj/enpm673_module/enpm673_final_proj.py`*
-  - *`enpm673_final_proj/scripts/enpm673_final_proj_main.py`*
+  - [enpm673_final_proj/enpm673_module/enpm673_final_proj.py](enpm673_final_proj/enpm673_module/enpm673_final_proj.py)
+  - [enpm673_final_proj/scripts/enpm673_final_proj_main.py](enpm673_final_proj/scripts/enpm673_final_proj_main.py)
 
 ### C++ version:
 
@@ -31,7 +31,7 @@ source install/setup.bash
 ros2 run enpm673_final_proj cpp_enpm673_final_proj 
 ```
 The source code files are located at: 
-  - *`enpm673_final_proj/src/enpm673_final_proj.cpp`*
+  - [enpm673_final_proj/src/enpm673_final_proj.cpp](enpm673_final_proj/src/enpm673_final_proj.cpp)
 
 ## How start the Gazebo simulation?
 ``` shell
