@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+    <model name='floor_tile'>
+      <pose>0 0 0 0 -0 0</pose>
+      <link name='Floor_0'>
+        <gravity>1</gravity>
+        <visual name='Floor_0_Visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>1 1 0.01</size> <!--size of the pattern-->
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <!-- <name>Gazebo/Residential</name> -->
+              <!-- <name>Gazebo/Wood</name> -->
+              <name>Gazebo/WoodFloor</name>
+              <!-- <name>Gazebo/CeilingTiled</name> -->
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+    </model>
+</sdf>  

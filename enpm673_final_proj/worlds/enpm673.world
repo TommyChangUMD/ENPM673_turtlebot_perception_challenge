@@ -27,11 +27,34 @@
       <uri>model://sun</uri>
     </include>
 
+    <!-- light -->
+    <light name='user_point_light_0' type='point'>
+      <pose>1.76686 5.87302 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+
+    
     <!-- Objects -->
+    <model name="floor">
+      <include>
+        <uri>model://textured_floor</uri>
+      </include>
+    </model>
+    
     <model name="track">
       <include>
         <uri>model://lane_markings</uri>
       </include>
+      <pose>0 0 0.01 0 0 0</pose>
     </model>
     
     <model name="turtlebot">

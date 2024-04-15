@@ -1,0 +1,385 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+
+    <model name='textured_floor'>
+      <pose>0 0 0 0 -0 0</pose>
+
+      <!-- 2 -->
+
+      <include>
+        <name>tile-3</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 -3.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>tile-2</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 -2.5 0 0 1.57</pose>
+      </include>
+      
+      <include>
+        <name>tile-1</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 -1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>tile0</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 -0.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>tile1</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 0.5 0 0 -0.0</pose>
+      </include>
+      
+      <include>
+        <name>tile2</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>tile3</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 2.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>tile4</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 3.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>tile5</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 4.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>tile6</name>
+        <uri>model://floor_tile</uri>
+        <pose>0.5 5.5 0 0 -0 0</pose>
+      </include>
+
+
+      <!-- 2 -->
+
+      <include>
+        <name>1-tile-3</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 -3.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>1-tile-2</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 -2.5 0 0 1.57</pose>
+      </include>
+      
+      <include>
+        <name>1-tile-1</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 -1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>1-tile0</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 -0.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>1-tile1</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 0.5 0 0 -0.0</pose>
+      </include>
+      
+      <include>
+        <name>1-tile2</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>1-tile3</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 2.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>1-tile4</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 3.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>1-tile5</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 4.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>1-tile6</name>
+        <uri>model://floor_tile</uri>
+        <pose>1.5 5.5 0 0 -0 0</pose>
+      </include>
+
+      <!-- 3 -->
+
+      <include>
+        <name>2-tile-3</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 -3.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>2-tile-2</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 -2.5 0 0 1.57</pose>
+      </include>
+      
+      <include>
+        <name>2-tile-1</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 -1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>2-tile0</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 -0.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>2-tile1</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 0.5 0 0 -0.0</pose>
+      </include>
+      
+      <include>
+        <name>2-tile2</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>2-tile3</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 2.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>2-tile4</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 3.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>2-tile5</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 4.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>2-tile6</name>
+        <uri>model://floor_tile</uri>
+        <pose>2.5 5.5 0 0 -0 0</pose>
+      </include>
+
+
+      <!-- 4 -->
+
+      <include>
+        <name>3-tile-3</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 -3.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>3-tile-2</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 -2.5 0 0 1.57</pose>
+      </include>
+      
+      <include>
+        <name>3-tile-1</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 -1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>3-tile0</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 -0.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>3-tile1</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 0.5 0 0 -0.0</pose>
+      </include>
+      
+      <include>
+        <name>3-tile2</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>3-tile3</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 2.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>3-tile4</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 3.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>3-tile5</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 4.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>3-tile6</name>
+        <uri>model://floor_tile</uri>
+        <pose>-1.5 5.5 0 0 -0 0</pose>
+      </include>
+      
+      
+      <!-- 5 -->
+
+      <include>
+        <name>4-tile-3</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 -3.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>4-tile-2</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 -2.5 0 0 1.57</pose>
+      </include>
+      
+      <include>
+        <name>4-tile-1</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 -1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>4-tile0</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 -0.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>4-tile1</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 0.5 0 0 -0.0</pose>
+      </include>
+      
+      <include>
+        <name>4-tile2</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>4-tile3</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 2.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>4-tile4</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 3.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>4-tile5</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 4.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>4-tile6</name>
+        <uri>model://floor_tile</uri>
+        <pose>-0.5 5.5 0 0 -0 0</pose>
+      </include>
+
+      <!-- 6 -->
+
+      <include>
+        <name>5-tile-3</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 -3.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>5-tile-2</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 -2.5 0 0 1.57</pose>
+      </include>
+      
+      <include>
+        <name>5-tile-1</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 -1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>5-tile0</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 -0.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>5-tile1</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 0.5 0 0 -0.0</pose>
+      </include>
+      
+      <include>
+        <name>5-tile2</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 1.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>5-tile3</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 2.5 0 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>5-tile4</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 3.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>5-tile5</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 4.5 0 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>5-tile6</name>
+        <uri>model://floor_tile</uri>
+        <pose>-2.5 5.5 0 0 -0 0</pose>
+      </include>
+
+      
+      <static>1</static>
+    </model>
+</sdf>
