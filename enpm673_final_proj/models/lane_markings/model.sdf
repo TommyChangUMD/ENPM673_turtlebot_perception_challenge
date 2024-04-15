@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+    <model name='lane_markings'>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+
+      <include>
+        <name>paper1</name>
+        <uri>model://paper_letter_size</uri>
+        <pose>0.693715 0.885508 0.0005 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>paper2</name>
+        <uri>model://paper_letter_size</uri>
+        <pose>0.696717 0.294755 0.0005 0 0 0.760685</pose>
+      </include>
+
+      <include>
+        <name>paper3</name>
+        <uri>model://paper_letter_size</uri>
+        <pose>0.690265 1.39362 0.0005 0 -0 0</pose>
+      </include>
+    
+      <include>
+        <name>paper4</name>
+        <uri>model://paper_letter_size</uri>
+        <pose>0.482471 2.02232 0.0005 0 -0 0</pose>
+      </include>
+      
+      <include>
+        <name>paper5</name>
+        <uri>model://paper_letter_size</uri>
+        <pose>-0.082798 2.34506 0.0005 0 -0 0</pose>
+      </include>
+        
+      <include>
+        <name>paper6</name>
+        <uri>model://paper_letter_size</uri>
+        <pose>-0.649394 1.93556 0.0005 0 -0 0</pose>
+      </include>
+          
+      <include>
+        <name>paper7</name>
+        <uri>model://paper_letter_size</uri>
+        <pose>-0.88953 1.24394 0.0005 0 -0 0</pose>
+      </include>
+
+      <include>
+        <name>paper8</name>
+        <uri>model://paper_letter_size</uri>
+        <pose>-0.856204 0.476271 0.0005 0 4e-06 0</pose>
+      </include>
+
+      
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+    </model>
+</sdf>

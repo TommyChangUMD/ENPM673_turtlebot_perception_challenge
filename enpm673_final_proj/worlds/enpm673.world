@@ -1,0 +1,155 @@
+<?xml version="1.0"?> 
+<sdf version='1.7'>
+  <world name='enpm673'>
+
+    <!-- scene camera view angle  -->
+    <gui fullscreen='0'>  
+      <camera name='user_camera'>
+        <pose>0.426178 -7.17792 7.1888 0 0.675642 1.5802</pose>
+      </camera>
+    </gui>
+
+    <!-- Disable shadow: Shadow needs Gazebo 11.14 or above to work
+         properly for non-NVIDIA graphic cards -->
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>0</shadows>
+    </scene>
+
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Sun -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Objects -->
+    <model name="track">
+      <include>
+        <uri>model://lane_markings</uri>
+      </include>
+    </model>
+    
+    <model name="turtlebot">
+      <include>
+        <uri>model://umd_turtlebot3_waffle_pi</uri>
+      </include>
+      <pose>0.8 -0.5 0.0005 0 0 1.57</pose>
+    </model>
+
+    <model name="stop_sign">
+      <include>
+        <uri>model://stop_sign</uri>
+      </include>
+      <pose>0 5 0 0 0 0</pose>
+      <plugin name="animated_box" filename="libanimated_box.so">
+        <trajectory>
+          <waypoint>
+            <time>0</time>
+            <pose>0 5 0 0 0 0</pose> <!--xyz,rpy-->
+          </waypoint>
+          <waypoint>
+            <time>5</time>
+            <pose>0 5 0 0 0 1.57</pose> <!--xyz,rpy-->
+          </waypoint>
+          <waypoint>
+            <time>10</time>
+            <pose>0 5 0 0 0 3.14</pose> <!--xyz,rpy-->
+          </waypoint>
+          <waypoint>
+            <time>15</time>
+            <pose>0 5 0 0 0 1.57</pose> <!--xyz,rpy-->
+          </waypoint>
+          <waypoint>
+            <time>20</time>
+            <pose>0 5 0 0 0 0</pose> <!--xyz,rpy-->
+          </waypoint>
+        </trajectory>
+      </plugin>
+    </model>
+
+    <model name="beer">
+      <include>
+        <uri>model://beer</uri>
+      </include>
+      <plugin name="animated_box" filename="libanimated_box.so">
+        <trajectory>
+          <waypoint>
+            <time>0</time>
+            <pose>-1 0 0 0 0 0</pose> <!--xyz,rpy-->
+          </waypoint>
+          <waypoint>
+            <time>5</time>
+            <pose>0 0 0 0 0 -1.57</pose> <!--xyz,rpy-->
+          </waypoint>
+          <waypoint>
+            <time>10</time>
+            <pose>-1 0 0 0 0 0</pose> <!--xyz,rpy-->
+          </waypoint>
+        </trajectory>
+      </plugin>
+    </model>
+    
+    <model name="person1">
+      <include>
+        <uri>model://person_standing</uri>
+      </include>
+      <pose>-2 3 0 0 0 0.5</pose>
+    </model>
+
+
+    <model name="person2">
+      <include>
+        <uri>model://person_standing</uri>
+      </include>
+      <pose>2 3 0 0 0 -0.4</pose>
+    </model>
+
+    <model name="wall1">
+      <include>
+        <uri>model://grey_wall</uri>
+      </include>
+      <pose>0 6 0 0 0 0</pose>
+    </model>
+
+    <model name="wall2">
+      <include>
+        <uri>model://grey_wall</uri>
+      </include>
+      <pose>3 3 0 0 0 1.57</pose>
+    </model>
+
+    <model name="wall3">
+      <include>
+        <uri>model://drc_practice_valve_wall</uri>
+      </include>
+      <pose>-3 3 0 0 0 1.57</pose>
+    </model>
+
+    <model name="wall4">
+      <include>
+        <uri>model://drc_practice_valve_wall</uri>
+      </include>
+      <pose>-3 2 0 0 0 1.57</pose>
+    </model>
+
+    <model name="wall5">
+      <include>
+        <uri>model://drc_practice_valve_wall</uri>
+      </include>
+      <pose>-3 1 0 0 0 1.57</pose>
+    </model>
+
+    <model name="wall6">
+      <include>
+        <uri>model://grey_wall</uri>
+      </include>
+      <pose>0 -4 0 0 0 0</pose>
+    </model>
+    
+  </world>
+</sdf>
