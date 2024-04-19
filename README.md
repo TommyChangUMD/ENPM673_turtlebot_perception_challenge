@@ -98,7 +98,7 @@ Follow the steps below to have a ROS2 Humble + Gazebo running in just a few mint
 ```shell
  sudo apt-get update
  sudo apt install python3-rocker
- rocker --x11 --user -- osrf/ros:humble-desktop 'bash -c "sudo apt update; sudo apt install -y terminator; terminator"'
+ rocker --privileged --x11 --user -- osrf/ros:humble-desktop 'bash -c "sudo apt update; sudo apt install -y terminator; terminator"'
 ```
 This will open a new ROS2 Humble terminal.  Now, we just need to install `gazebo` and `turtlebot3` packages.  
 Run on this new ROS2 Humble terminal:
