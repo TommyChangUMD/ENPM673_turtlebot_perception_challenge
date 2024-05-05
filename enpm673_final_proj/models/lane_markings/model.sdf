@@ -4,6 +4,12 @@
       <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
 
       <include>
+        <name>checkerboard 6 rows 8 columns, each square is 30cm x 30cm</name>
+        <uri>model://checkerboard_6_8_0_03</uri>
+        <pose>0.8 -0.06 0 0 0 0.760685</pose>
+      </include>
+      
+      <include>
         <name>diamond</name>
         <uri>model://paper_letter_size</uri>
         <pose>0.696717 0.294755 0 0 0 0.760685</pose>
