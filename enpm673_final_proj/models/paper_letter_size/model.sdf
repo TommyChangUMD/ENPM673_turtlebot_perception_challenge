@@ -33,6 +33,13 @@
         </visual>
       </link>
       <static>1</static>
+
+      <include>
+        <name>aruco</name>
+        <uri>model://aruco_marker</uri>
+        <pose>0.0 0.0 0.01 1.57 -1.57 -1.57</pose>
+      </include>
+
       <allow_auto_disable>1</allow_auto_disable>
     </model>
 </sdf>

@@ -1,9 +1,9 @@
-<?xml version="1.0"?> 
+<?xml version="1.0"?>
 <sdf version='1.7'>
   <world name='enpm673'>
 
     <!-- scene camera view angle  -->
-    <gui fullscreen='0'>  
+    <gui fullscreen='0'>
       <camera name='user_camera'>
         <pose>0.426178 -7.17792 7.1888 0 0.675642 1.5802</pose>
       </camera>
@@ -42,26 +42,26 @@
       <direction>0 0 -1</direction>
     </light>
 
-    
+
     <!-- Objects -->
     <model name="floor">
       <include>
         <uri>model://textured_floor</uri>
       </include>
     </model>
-    
+
     <model name="track">
       <include>
         <uri>model://lane_markings</uri>
       </include>
       <pose>0 0 0.01 0 0 0</pose>
     </model>
-    
+
     <model name="turtlebot">
       <include>
         <uri>model://umd_turtlebot3_waffle_pi</uri>
       </include>
-      <pose>0.8 -0.5 0.0005 0 0 1.57</pose>
+      <pose>0.8 -0.8 0.0005 0 0 1.57</pose>
     </model>
 
     <model name="stop_sign">
@@ -116,7 +116,7 @@
         </trajectory>
       </plugin>
     </model>
-    
+
     <model name="person1">
       <include>
         <uri>model://person_standing</uri>
@@ -173,6 +173,6 @@
       </include>
       <pose>0 -4 0 0 0 0</pose>
     </model>
-    
+
   </world>
 </sdf>
