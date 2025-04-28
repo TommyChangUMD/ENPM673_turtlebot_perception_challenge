@@ -36,8 +36,9 @@
 
       <include>
         <name>aruco</name>
+        <static>true</static>       <!--no interaction-->
         <uri>model://aruco_marker</uri>
-        <pose>0.0 0.0 0.01 1.57 -1.57 -1.57</pose>
+        <pose>0.0 0.0 0.001 1.57 -1.57 -1.57</pose>
       </include>
 
       <allow_auto_disable>1</allow_auto_disable>
