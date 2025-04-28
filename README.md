@@ -106,3 +106,5 @@ Run on this new ROS2 Humble terminal:
 sudo apt -y install ros-humble-gazebo* ros-humble-turtlebot3*
 ```
 That's it.  We now have a working ROS2 Humble + Gazebo system. 
+
+Note: You may want to add the `--home` option to the `rocker` command so you can access your host machine's home directory. Keep in mind that your ~/.bashrc file will be executed when you start the container.
