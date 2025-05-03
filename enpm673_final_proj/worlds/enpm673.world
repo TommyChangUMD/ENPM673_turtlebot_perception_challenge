@@ -61,7 +61,7 @@
       <include>
         <uri>model://umd_turtlebot3_waffle_pi</uri>
       </include>
-      <pose>0.8 -0.8 0.0005 0 0 1.57</pose>
+      <pose>0.8 -0.9 0.0005 0 0 1.57</pose>
     </model>
 
     <model name="stop_sign">
