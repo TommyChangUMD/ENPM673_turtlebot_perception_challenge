@@ -95,9 +95,9 @@
       </plugin>
     </model>
 
-    <model name="beer">
+    <model name="oats-can">
       <include>
-        <uri>model://beer</uri>
+        <uri>model://oats_can</uri>
       </include>
       <plugin name="animated_box" filename="libanimated_box.so">
         <trajectory>

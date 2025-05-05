@@ -1,0 +1,15 @@
+material OatsCan/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture lidl_oats_can.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
